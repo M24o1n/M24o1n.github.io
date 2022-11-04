@@ -1,0 +1,107 @@
+body {
+    font-family: Segoe UI;
+    background-image: url("assets/silverware.jpg");
+    font-size: 0.8rem;
+}
+
+#main {
+    max-width: 1024px;
+    margin: auto;
+}
+
+h1,
+#sh {
+    color: #a4a400;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #73ad21;
+    border-radius: 25px;
+    max-width: 50%;
+    margin: auto;
+}
+
+#summ {
+    text-align: center;
+}
+
+div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#container,
+#container2,
+#container5 {
+    column-count: 3;
+    column-rule: 2px solid #a4a400;
+}
+
+@media only screen and (max-width: 600px) {
+    #container,
+    #container2,
+    #container5 {
+        column-count: 1;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+    #container,
+    #container2,
+    #container5 {
+        column-count: 2;
+    }
+}
+
+.photo {
+    border-radius: 100%;
+    max-width: 100%;
+    height: auto;
+    display: inline;
+}
+
+ul>li {
+    list-style-image: url("assets/fish_icon_24.png");
+}
+
+#container5>ul>li {
+    list-style: none;
+}
+
+#container3,
+#container4 {
+    max-width: 50%;
+    margin: auto
+}
+
+@media only screen and (max-width: 600px) {
+    #container3,
+    #container4 {
+        max-width: 70%;
+        margin: auto
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+    #container3,
+    #container4 {
+        max-width: 50%;
+        margin: auto
+    }
+}
+
+form {
+    width: fit-content;
+}
+
+dd {
+    background-color: #ffffa8;
+}
+
+a {
+    color: #a4a400;
+    display: block;
+    text-align: center;
+}
